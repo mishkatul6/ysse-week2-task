@@ -1,0 +1,177 @@
+/* Basic CSS for YSSE Notice Board */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    background-color: #f4f8f5;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #147d4a;
+    color: white;
+    padding: 25px 50px 0;
+}
+
+header img {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    padding: 5px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    font-size: 32px;
+}
+
+header p {
+    margin-top: 5px;
+    padding-bottom: 15px;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #0b5133;
+    padding: 12px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    width: 1100px;
+    margin: 30px auto;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    color: #0b5133;
+    border-left: 5px solid #147d4a;
+    padding-left: 12px;
+}
+
+/* Notice Articles */
+article {
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+article h3 {
+    color: #0b5133;
+    margin-top: 0;
+}
+
+article p {
+    margin: 8px 0;
+}
+
+article a {
+    display: inline-block;
+    background-color: #e9f7ef;
+    color: #147d4a;
+    text-decoration: none;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+article a:hover {
+    background-color: #147d4a;
+    color: white;
+}
+
+/* Notice Summary Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+caption {
+    padding: 10px;
+    font-weight: bold;
+}
+
+th {
+    background-color: #0b5133;
+    color: white;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e9f7ef;
+}
+
+/* Useful Links */
+main section:last-of-type {
+    background-color: white;
+    border: 1px solid #dddddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+main section:last-of-type a {
+    display: inline-block;
+    background-color: #147d4a;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #103d2b;
+    color: white;
+    padding: 25px 50px;
+}
+
+footer h2 {
+    font-size: 22px;
+}
+
+footer a {
+    color: #9ce5b9;
+}
+
+footer p {
+    margin: 8px 0;
+}
